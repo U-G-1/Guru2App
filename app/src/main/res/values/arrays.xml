@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="rosterList">       
+        <item >name1</item>       
+        <item >namw2</item>       
+        <item >name3</item>       
+        <item >name4</item>           
+    </string-array>
+
+</resources>
