@@ -7,4 +7,96 @@
     android:orientation="vertical"
     tools:context=".InfoActivity">
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:gravity="center"
+            android:text="name"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/p1" />
+    </LinearLayout>
+
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:background="#1A1A3A"
+        app:tabIndicatorColor="#40E0D0"
+        app:tabSelectedTextColor="#40E0D0"
+        app:tabTextColor="@color/white">
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INFO" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INTERVIEW" />
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <FrameLayout
+        android:id="@android:id/tabcontent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+
+        <!-- Tab 내용 및 id (id : tabSchedule, tabRoster) -->
+
+        <LinearLayout
+            android:id="@+id/tabInfo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/contentBlue"
+            android:orientation="vertical">
+
+            <!-- Oracle's Elixir -->
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tabInterview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#232839"
+            android:orientation="vertical">
+
+            <!-- Youtube API -->
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+
+
+
+
 </LinearLayout>
