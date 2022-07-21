@@ -17,78 +17,168 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
-
-            <!-- TableRow 밑으로 이미지버튼 추가 및 id 부여 (id: teamBtn(n)) -->
-            <ImageButton
-                android:id="@+id/teamBtn1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-            </ImageButton>
-            <ImageButton
-                android:id="@+id/teamBtn2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-            </ImageButton>
-            <ImageButton
-                android:id="@+id/teamBtn3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-            </ImageButton>
-            <ImageButton
-                android:id="@+id/teamBtn4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-            </ImageButton>
-            <ImageButton
-                android:id="@+id/teamBtn5"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-            </ImageButton>
+            android:layout_height="match_parent">
 
             <ImageButton
-                android:id="@+id/teamBtn6"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"></ImageButton>
+                android:id="@+id/teamBtn7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/bro"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/teamBtn8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/drx"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/teamBtn9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/dwg"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/teamBtn10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/gen"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/teamBtn11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/hle"></ImageButton>
 
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/teamTxt1"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="BRO" />
+
+            <TextView
+                android:id="@+id/teamTxt2"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="DRX" />
+
+            <TextView
+                android:id="@+id/teamTxt3"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="DWG" />
+
+            <TextView
+                android:id="@+id/teamTxt4"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="GEN" />
+
+            <TextView
+                android:id="@+id/teamTxt5"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="HLE" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!-- TableRow 밑으로 이미지버튼 추가 및 id 부여 (id: teamBtn(n)) -->
+            <ImageButton
+                android:id="@+id/teamBtn1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/kdf"></ImageButton>
 
             <ImageButton
-                android:id="@+id/teamBtn7"
+                android:id="@+id/teamBtn2"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-            </ImageButton>
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/kt"></ImageButton>
+
             <ImageButton
-                android:id="@+id/teamBtn8"
+                android:id="@+id/teamBtn3"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-            </ImageButton>
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/lsb"></ImageButton>
+
             <ImageButton
-                android:id="@+id/teamBtn9"
+                android:id="@+id/teamBtn4"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-            </ImageButton>
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/ns"></ImageButton>
+
             <ImageButton
-                android:id="@+id/teamBtn10"
+                android:id="@+id/teamBtn5"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-            </ImageButton>
-            <ImageButton
-                android:id="@+id/teamBtn11"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-            </ImageButton>
-            <ImageButton
-                android:id="@+id/teamBtn12"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-            </ImageButton>
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/t1"></ImageButton>
 
         </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/teamTxt7"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="KDF" />
+
+            <TextView
+                android:id="@+id/teamTxt8"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="KT" />
+
+            <TextView
+                android:id="@+id/teamTxt9"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="LSB" />
+
+            <TextView
+                android:id="@+id/teamTxt10"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="NS" />
+
+            <TextView
+                android:id="@+id/teamTxt11"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="T1" />
+
+        </TableRow>
+
     </TableLayout>
 
     <!-- TabHost 추가 -->
@@ -121,7 +211,8 @@
                     <!-- TabHost 스케쥴 레이아웃에 이미지뷰 위젯 추가 (이미지뷰 메치페런트로 설정 추후 조정 필요) -->
                     <ImageView
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"/>
+                        android:layout_height="match_parent"
+                        android:src="@drawable/schedule_drx"/>
 
                 </LinearLayout>
 
